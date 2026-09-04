@@ -7,6 +7,6 @@ let y2 =Number(prompt('Entrer La nombre y2 : '))
 let z1 =Number(prompt('Entrer La nombre y1 : '))
 let z2 =Number(prompt('Entrer La nombre y2 : '))
 
-Distance = Math.sqrt((x2 - x1)^(2) + (y2 - y1)^(2) + (z2 - z1)^(2))
+Distance =  Math.sqrt((x2 - x1)^(2) + (y2 - y1)^(2) + (z2 - z1)^(2))
 
 console.log('la distance entre deux points dans un espace 3D est : ' + Distance)
